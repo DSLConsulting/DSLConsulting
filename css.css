@@ -19,8 +19,8 @@ a.navbar-brand {
 }
 .hero-blue {
     background-color: #2867aa;
-    background: linear-gradient(to top, rgba(0, 38, 79, 0.4), transparent 150px), linear-gradient(to bottom right, rgba(0, 38, 79, 0.95), rgba(41, 136, 238, 0.92)), url(https://d1vf4z01lc8cfc.cloudfront.net/assets/hero-city-d08a48e910fa1f0a38c4a82d0e0ba026.jpg) no-repeat center center;
-    background: linear-gradient(to top, rgba(0, 38, 79, 0.4), transparent 150px), linear-gradient(to bottom right, rgba(0, 38, 79, 0.95), rgba(41, 136, 238, 0.92)), url(https://d1vf4z01lc8cfc.cloudfront.net/assets/hero-city-d08a48e910fa1f0a38c4a82d0e0ba026.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(0, 38, 79, 0.4), transparent 150px), linear-gradient(to bottom right, rgba(0, 38, 79, 0.95), rgba(41, 136, 238, 0.92)), url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Royal_Exchange,_Bank,_City_of_London,_22_June_2011.jpg) no-repeat center center;
+    background-size: cover;
     color: #fff
 }
 .hero-standard {
@@ -102,6 +102,30 @@ a.navbar-brand {
   padding-top: 4em;
 }
 
+#features-container {
+  color: rgb(172, 212, 255);
+  margin-top: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)) repeat scroll 0% 0% transparent;
+  font-size: 15px;
+  line-height: 1.5;
+  text-shadow: 0px 2px 1px rgb(27, 84, 145);
+}
+
+#features-container p {
+  color: rgb(172, 212, 255);
+}
+
+#features-container strong {
+  color: white;
+}
+
+
+.features-container-right {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
 footer .navbar .navbar-nav {
     display: inline-block;
     float: none;
